@@ -24,6 +24,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .container {
+    @apply lg:max-w-5xl
+  }
 }
 
 @layer base {
