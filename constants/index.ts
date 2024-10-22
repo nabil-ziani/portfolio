@@ -36,3 +36,17 @@ export const projects = [
         image: ""
     }
 ]
+
+export const tape = [
+    "Performant",
+    "Teamworker",
+    "Reliable",
+    "Creative",
+    "Problem Solver",
+    "Fast Learner",
+    "Adaptable",
+    "Detail Oriented",
+    "Good Communicator",
+    "Ambitious",
+    "Resilient",
+]
