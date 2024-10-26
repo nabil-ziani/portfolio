@@ -50,3 +50,30 @@ export const tape = [
     "Ambitious",
     "Resilient",
 ]
+
+export const testimonials = [
+    {
+        name: "John Doe",
+        position: "CEO of CEMI",
+        text: "Nabil was a great asset to our team. He was able to deliver the project on time and with great quality. He was also able to work with the team and communicate effectively. I would definitely recommend him for any project.",
+        avatar: ""
+    },
+    {
+        name: "John Doe",
+        position: "CEO of CEMI",
+        text: "Nabil was a great asset to our team. He was able to deliver the project on time and with great quality. He was also able to work with the team and communicate effectively. I would definitely recommend him for any project.",
+        avatar: ""
+    },
+    {
+        name: "John Doe",
+        position: "CEO of CEMI",
+        text: "Nabil was a great asset to our team. He was able to deliver the project on time and with great quality. He was also able to work with the team and communicate effectively. I would definitely recommend him for any project.",
+        avatar: ""
+    },
+    {
+        name: "John Doe",
+        position: "CEO of CEMI",
+        text: "Nabil was a great asset to our team. He was able to deliver the project on time and with great quality. He was also able to work with the team and communicate effectively. I would definitely recommend him for any project.",
+        avatar: ""
+    }
+]
