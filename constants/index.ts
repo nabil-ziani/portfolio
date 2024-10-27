@@ -4,6 +4,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaChrome } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { title } from "process";
 
 
 export const projects = [
@@ -155,5 +156,16 @@ export const hobbies = [
         emoji: "📚",
         left: "45%",
         top: "70%"
+    }
+]
+
+export const footerLinks = [
+    {
+        title: "Github",
+        href: "https://github.com/nabil-ziani"
+    },
+    {
+        title: "Linkedin",
+        href: "https://www.linkedin.com/in/nabil-ziani-436213210"
     }
 ]
