@@ -17,44 +17,44 @@ const HeroSection = () => {
                 <div className="size-[1020px] hero-ring" />
                 <div className="size-[1220px] hero-ring" />
 
-                <HeroOrbit size={800} rotation={-72}>
-                    <LuSparkle fill="#818cf8" className="size-28 text-indigo-400 -top-10 -left-10" />
-                </HeroOrbit>
-                <HeroOrbit size={550} rotation={20}>
-                    <LuSparkle fill="#818cf8" className="size-12 text-indigo-400 -top-10 -left-10" />
-                </HeroOrbit>
-                <HeroOrbit size={590} rotation={98}>
-                    <LuSparkle fill="#818cf8" className="size-8 text-indigo-400 -top-10 -left-10" />
-                </HeroOrbit>
-
-                <HeroOrbit size={430} rotation={-14}>
+                <HeroOrbit size={430} rotation={-14} shouldOrbit orbitDuration="30s" shouldSpin spinDuration="5s">
                     <LuSparkle fill="rgb(129 140 248 / 0.2)" className="size-8 text-indigo-400/20 -top-10 -left-10" />
                 </HeroOrbit>
-                <HeroOrbit size={440} rotation={79}>
+                <HeroOrbit size={440} rotation={79} shouldOrbit orbitDuration="32s" shouldSpin spinDuration="5s">
                     <LuSparkle fill="rgb(129 140 248 / 0.2)" className="size-5 text-indigo-400/20 -top-10 -left-10" />
                 </HeroOrbit>
-                <HeroOrbit size={530} rotation={178}>
-                    <LuSparkle fill="rgb(129 140 248 / 0.2)" className="size-10 text-indigo-400/20 -top-10 -left-10" />
-                </HeroOrbit>
-                <HeroOrbit size={710} rotation={144}>
-                    <LuSparkle fill="rgb(129 140 248 / 0.2)" className="size-14 text-indigo-400/20 -top-10 -left-10" />
-                </HeroOrbit>
-
-                <HeroOrbit size={720} rotation={85}>
-                    <div className="size-3 bg-indigo-400/20 rounded-full" />
-                </HeroOrbit>
-                <HeroOrbit size={520} rotation={-41}>
+                <HeroOrbit size={520} rotation={-41} shouldOrbit orbitDuration="34s">
                     <div className="size-2 bg-indigo-400/20 rounded-full" />
                 </HeroOrbit>
-                <HeroOrbit size={650} rotation={-5}>
+                <HeroOrbit size={530} rotation={178} shouldOrbit orbitDuration="36s" shouldSpin spinDuration="5s">
+                    <LuSparkle fill="rgb(129 140 248 / 0.2)" className="size-10 text-indigo-400/20 -top-10 -left-10" />
+                </HeroOrbit>
+                <HeroOrbit size={550} rotation={20} shouldOrbit orbitDuration="38s" shouldSpin spinDuration="10s">
+                    <LuSparkle fill="#818cf8" className="size-12 text-indigo-400 -top-10 -left-10" />
+                </HeroOrbit>
+                <HeroOrbit size={590} rotation={98} shouldOrbit orbitDuration="40s" shouldSpin spinDuration="10s">
+                    <LuSparkle fill="#818cf8" className="size-8 text-indigo-400 -top-10 -left-10" />
+                </HeroOrbit>
+                <HeroOrbit size={650} rotation={-5} shouldOrbit orbitDuration="42s">
                     <div className="size-3 bg-indigo-400/20 rounded-full" />
+                </HeroOrbit>
+                <HeroOrbit size={710} rotation={144} shouldOrbit orbitDuration="44s" shouldSpin spinDuration="5s">
+                    <LuSparkle fill="rgb(129 140 248 / 0.2)" className="size-14 text-indigo-400/20 -top-10 -left-10" />
+                </HeroOrbit>
+                <HeroOrbit size={720} rotation={85} shouldOrbit orbitDuration="46s">
+                    <div className="size-3 bg-indigo-400/20 rounded-full" />
+                </HeroOrbit>
+                <HeroOrbit size={800} rotation={-72} shouldOrbit orbitDuration="48s" shouldSpin spinDuration="10s">
+                    <LuSparkle fill="#818cf8" className="size-28 text-indigo-400 -top-10 -left-10" />
                 </HeroOrbit>
             </div>
 
             <div className="flex flex-col items-center">
                 <Image src={memojiImage} className="size-[100px]" alt='Person peeking from behind laptop' />
                 <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
-                    <div className="bg-green-500 size-2.5 rounded-full"></div>
+                    <div className="bg-green-300 size-2.5 rounded-full relative">
+                        <div className="bg-green-300 inset-0 animate-ping-large absolute rounded-full" />
+                    </div>
                     <div className="text-sm font-medium">Available for new projects</div>
                 </div>
             </div>
