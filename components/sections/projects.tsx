@@ -14,7 +14,7 @@ const ProjectsSection = () => {
                 <SectionHeader eyebrow="Real-world Results" title="Featured Projects" description="See how I transformed concepts into engaging digital experiences!" />
                 <div className="flex flex-col mt-10 md:mt-20 gap-20">
                     {projects.map((project, index) => (
-                        <Card key={index} className="pb-0 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20">
+                        <Card key={index} className="pb-0 px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky" style={{ top: `calc(64px + ${index * 40}px)` }}>
                             <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                                 <div className="lg:pb-16">
                                     <div className="bg-gradient-to-r from-indigo-400 to-sky-300 inline-flex font-bold uppercase tracking-widest text-sm gap-2 text-transparent bg-clip-text">
