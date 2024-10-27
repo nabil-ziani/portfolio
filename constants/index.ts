@@ -58,6 +58,10 @@ export const tape = [
     "Good Communicator",
     "Ambitious",
     "Resilient",
+    "Self-Starter",
+    "Passionate",
+    "Organized",
+    "Proactive",
 ]
 
 export const testimonials = [
