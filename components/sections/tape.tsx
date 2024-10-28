@@ -8,7 +8,7 @@ const TapeSection = () => {
         <div className="py-16 lg:py-24 overflow-x-clip">
             <div className="bg-gradient-to-r from-indigo-400 to-sky-300 -rotate-3 -mx-1">
                 <div className="flex [mask-image:linear-gradient(to_right,transparent,black_10%,black,90%,transparent)]">
-                    <div className="flex flex-none gap-4 py-3 pr-4 animate-move-left">
+                    <div className="flex flex-none gap-4 py-3 pr-4 animate-move-left [animation-duration:60s]">
                         {[...new Array(4)].fill(0).map((_, index) => (
                             <Fragment key={index}>
                                 {tape.map((word, index) => (
