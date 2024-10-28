@@ -17,7 +17,7 @@ const AboutSection = () => {
     const constraintRef = useRef(null)
 
     return (
-        <section className="py-20 lg:py-28">
+        <section id="about" className="py-20 lg:py-28">
             <div className="container">
                 <SectionHeader eyebrow="About Me" title="A Glimpse Into My World" description="Learn more about who I am, what I do and what inspires me." />
 
@@ -44,7 +44,7 @@ const AboutSection = () => {
                                 {hobbies.map((hobby, index) => (
                                     <motion.div
                                         key={index}
-                                        className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-indigo-400 to-sky-300 rounded-lg py-1.5 absolute"
+                                        className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-indigo-400 to-sky-300 rounded-lg py-1.5 absolute cursor-pointer"
                                         style={{ left: hobby.left, top: hobby.top }}
                                         drag
                                         dragConstraints={constraintRef}

@@ -4,7 +4,6 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaChrome } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { title } from "process";
 
 
 export const projects = [
